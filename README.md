@@ -7,7 +7,7 @@ CC202 - Base de datos
 ```
 ## Periodo 2020-I:
 ```
-CC222 - Sistemas Operativ
+CC222 - Sistemas Operativos
 CC232 - Algoritmos y estructura de datos
 CC341 - Ingeniería del Software
 ```
