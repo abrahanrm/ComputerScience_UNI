@@ -9,8 +9,7 @@ CM281 - Matemática Discreta
 ## Periodo 2020-I:
 ```
 CC222 - Sistemas Operativos
-CC232 - Algoritmos y estructura de datos
-CC341 - Ingeniería del Software
+CC232 - Introducción a la electricidad y magnetismo
 ```
 ## Periodo 2020-II:
 ```
