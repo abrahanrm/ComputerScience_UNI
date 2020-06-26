@@ -13,7 +13,6 @@ CM4F1 - Análisis y modelamiento Numérico I
 ```
 ## Periodo 2020-II:
 ```
-CM4F1 - Análisis y modelamiento Numérico I
 CC311 - Computación Centrada en Redes
 CC321 - Teoría de autómatas, Lenguajes y Computación
 CC301 - Análisis y diseño de algoritmos
