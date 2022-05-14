@@ -1,0 +1,42 @@
+[
+    {
+        "id": "0",
+        "raza": "PERSA",   
+        "tamaño": "GRANDE",
+        "pelaje":"PELO LARGO",
+        "foto": "/static/gatos/img/0.jpg"
+    },
+
+    {
+        "id": "1",
+        "raza": "SIAMES",   
+        "tamaño": "GRANDE",
+        "pelaje":"PELO CORTO",
+        "foto": "/static/gatos/img/1.jpg"
+    },
+
+    {
+        "id": "2",
+        "raza": "ESFINGE",   
+        "tamaño": "GRANDE",
+        "pelaje":"PELO EXTRA CORTO",
+        "foto": "/static/gatos/img/2.jpg"
+    }, 
+
+    {
+        "id": "3",
+        "raza": "MAU EGIPCIO",   
+        "tamaño": "GRANDE",
+        "pelaje":"PELO CORTO",
+        "foto": "/static/gatos/img/3.jpg"
+    }, 
+
+    {
+        "id": "4",
+        "raza": "BIRMANO",   
+        "tamaño": "GRANDE",
+        "pelaje":"PELO OSCURO",
+        "foto": "/static/gatos/img/4.jpg"
+    }
+
+]

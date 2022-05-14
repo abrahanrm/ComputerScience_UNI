@@ -1,0 +1,26 @@
+@api = http://localhost:5000
+
+# creando un usuario 
+POST {{api}}/user/login
+Content-Type: application/json
+
+{
+    "userID": "TueJan182000CristhianWiki",
+    "dateOfBirth": "2000-01-18T05:00:00.000+00:00",
+    "direction": "Comas",
+    "email": "user@gmail.com",
+    "hospital": "",
+    "isMedic": "false",
+    "lastUse": "2021-07-02T01:26:59.687+00:00",
+    "name":"Cristhian Wiki",
+    "password": "user98",
+    "profileImage": "",
+    "speciality": "",
+    "timeContract": ""
+}
+
+// Obtener correos
+GET {{api}}/user/correo
+
+// Obtener consulta
+GET {{api}}/user/consulta

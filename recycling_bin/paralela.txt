@@ -1,0 +1,21 @@
+Unidad 2: Metodos de paralelismo
+1.Velocidad, eficiencia, escalabilidad. Ley de Ahmdal
+2.DAG (Directed Acyclic Graphs)
+3.Modelos computacionales en paralelo PRAM
+4.Operaciones basicas de paralelismo
+5.Broadcast/Reduccion
+
+Unidad 3: Descomposición en paralelo
+1.Paralelismo directo
+2.Uso de random en paralelo
+3.Particionamiento, Divide y venceras
+
+Unidad 4: Comunicacion y coordinacion
+
+
+calcule performance speedup y eficiencia para el caso de weak y strong scaling.
+Performance esta definido como el trabajo realizado por unidad de tiempo
+-------------------
+Dados dos procesadores y la tarea de actualizar la cuenta de un banco.
+Diseñe un pseudocódigo (PRAM) para la solucion de este problema
+utilizando el paradigma de memoria compartida

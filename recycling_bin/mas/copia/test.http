@@ -1,0 +1,58 @@
+@api = http://localhost:5000
+
+# obtener todas las tareas
+GET {{api}}/user
+GET {{api}}/stadistic
+
+#creando estadistica para un usuario(medico)
+POST {{api}}/stadistic/performance
+Content-Type: application/json
+
+{
+    "userID": "300",
+    "state": "0",
+    "specialism": "neurologo",
+    "hospital": "Cayetano Heredia",
+    "patientID": ["200"],
+    //"patientID": "0",
+    "starts": "0"
+}
+
+
+# creando un usuario NO MEDICO
+POST {{api}}/user/signup
+Content-Type: application/json
+
+{
+    "name": "Cristhian Wiki", 
+    "email": "user@gmail.com",
+    "password":"user98",
+    "confirmPassword":"user98",
+    "dateOfBirth":"2000-01-01T05:00:00.000Z",
+    "direction": "Puente Piedra",
+    "isMedic": "false",
+    "userID": "0"
+}
+       
+POST {{api}}/user/signup
+Content-Type: application/json
+
+{
+    "name": "Ronaldo Lopez", 
+    "email": "medic@gmail.com",
+    "password":"medic98",
+    "confirmPassword":"medic98",
+    "dateOfBirth":"2000-01-01T05:00:00.000Z",
+    "direction": "SJL",
+    "isMedic": "true",
+    "userID": "0"
+}
+
+//LOGIN
+POST {{api}}/user/signin
+Content-Type: application/json
+
+{
+    "email": "medic@gmail.com",
+    "password":"medic98"
+}

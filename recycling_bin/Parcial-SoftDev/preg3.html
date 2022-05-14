@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="cc3S2Button">Matricularse en CC3S2</button>
+    <button id="cc451Button">Matricularse en CC451</button>
+   
+    <!--
+    up:onclick=myFunction(event)
+    <p>Click on a paragraph. An alert box will alert the element whose eventlistener triggered the event.</p>
+    <p><strong>Note:</strong> The currentTarget property does not necessarily return the element that was clicked on, but the element whose eventlistener triggered the event.</p>
+    -->
+</body>
+<script>
+    
+    function Course(courseName){
+        this.courseName = courseName;
+        this.id = courseName + '_id';
+        document.getElementById(courseName+'Button').onclick = function(e){
+            console.log('El target para este evento es ' + e.target.id);
+            console.log('El currentTarget para este evento es '+e.currentTarget.id);
+            console.log('Matriculado Exitosamente en: '+ this.courseName);
+        };
+    }
+    var cc451 = new Course('cc451');
+    
+   /*
+    function myFunction(event) { 
+        alert(event.currentTarget.nodeName); // body
+        alert(event.target.nodeName); // strong
+    }
+    */
+</script>
+</html>
+
+
+<!--Explicación del output-->
+<!--
+    Conceptos: 
+        target: dice donde comenzo el evento
+        currentTarget: Elemento en el que se registró el evento
+                        o el elemento cuyo eventListener desencadeno el evento 
+
+    Outputs:
+    Al presionar Matricularse en CC3S2 no se muestra ningun resultado, ya que segun
+    el script no se ejecuta la función con el parametro cc3S2
+    Al presionar Matricularse en CC451 se muestra:
+    Se muestra en pantalla lo siguiente: 
+        El target para este evento es cc451Button
+        El currentTarget para este evento es cc451Button
+        Matriculado Exitosamente en: undefined
+    
+    
+
+-->

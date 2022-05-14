@@ -1,0 +1,20 @@
+@api = http://localhost:5000
+
+# obtener todas las tareas
+GET {{api}}/user/patients
+
+GET {{api}}/diagnosis/downloadPdf
+
+# creando un usurio NO MEDICO
+POST {{api}}/user/login
+Content-Type: application/json
+
+{
+    "username": "Abrahan",
+    "email": "user@gmail.com",
+    "password": "20180562G",
+}
+
+
+//LOGIN
+GET {{api}}/user/correo

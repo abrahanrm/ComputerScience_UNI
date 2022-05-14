@@ -1,0 +1,45 @@
+.formularioconsultar{
+  position: relative;
+  font-size: small;
+  display:table;
+  display: block;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 50%;
+  border-radius: 3%;
+  border: 1px solid black;
+  float:left;
+  opacity: 0.88;
+  width: 750px;
+  top: 100px;
+  right: 350px;
+}
+
+[type=text]{
+  color:black;
+    display: block;
+  width: 80%;
+  border-bottom: 1px solid rgba(7, 7, 7, 0.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+  ::-moz-placeholder {
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    ::-webkit-input-placeholder {
+        color: black;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: bold;
+        }
+.ho{
+  position: relative;
+  bottom: 50px;
+}

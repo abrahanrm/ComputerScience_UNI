@@ -1,0 +1,5 @@
+{
+    "nombre": "nFaraday",
+    "Fecha": "fnFaraday",
+    "lugar": "lnFaraday"
+}

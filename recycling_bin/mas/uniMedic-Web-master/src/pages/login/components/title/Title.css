@@ -1,0 +1,10 @@
+.title-container{
+    color:black;
+    font-size: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    position: relative;
+    bottom: 50px;
+}
