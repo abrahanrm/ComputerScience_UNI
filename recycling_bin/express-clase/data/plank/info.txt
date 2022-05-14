@@ -1,5 +1,0 @@
-{
-    "nombre": "nPlank",
-    "Fecha": "fnPlank",
-    "lugar": "lnPlank"
-}
